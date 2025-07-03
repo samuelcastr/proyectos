@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroFinanzas Hoy - Tu Fuente de Información</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>AgroFinanzas Hoy</h1>
+            <nav>
+                <ul>
+                    <li><a href="#noticias">Noticias</a></li>
+                    <li><a href="#mercados">Mercados</a></li>
+                    <li><a href="#analisis">Análisis</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="/login_registro/login_registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container-hero">
+                <div class="mid">
+                    <div class="caja-finlap">
+                        <h2>FINPLAT</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere expedita culpa facilis beatae,
+                        natus reiciendis iste eligendi officia eos asperiores nostrum aspernatur cupiditate, eveniet
+                        pariatur! Nobis expedita odio maiores facere.</p>
+                    <button onclick="location.href='/login_registro/login_registro.html'" class="btn-primary">¡INICIEMOS!</button>
+                </div>
+                <div class="hero-image">
+                    <img src="/acess/9681fbcd0547cd53ae6fb5025d178ec28d0eb4aa.png" alt="Imagen de campo agrícola">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="noticias" class="news-section">
+            <div class="container">
+                <h2>Últimas Noticias</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <h3>Título de Noticia Agrícola 1</h3>
+                        <p>Breve resumen de la noticia. Aquí se podría hablar sobre la cosecha de café en Colombia.</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </article>
+                    <article class="news-card">
+                        <h3>Impacto Financiero del Fenómeno Climático</h3>
+                        <p>Análisis de cómo las condiciones climáticas afectan los precios de los productos.</p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </article>
+                    <article class="news-card">
+                        <h3>Nuevas Líneas de Crédito para el Agro</h3>
+                        <p>Información sobre oportunidades de financiación ofrecidas por bancos como el Banco Agrario.
+                        </p>
+                        <a href="#" class="read-more">Leer más</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="mercados" class="markets-section">
+            <div class="container">
+                <h2>Mercados en Vivo</h2>
+                <div class="market-data">
+                    <div class="market-item">
+                        <h4>Café (USD/lb)</h4>
+                        <p class="price">$1.95 <span class="change positive">▲ 0.02</span></p>
+                    </div>
+                    <div class="market-item">
+                        <h4>Maíz (USD/bushel)</h4>
+                        <p class="price">$4.50 <span class="change negative">▼ 0.05</span></p>
+                    </div>
+                    <div class="market-item">
+                        <h4>Dólar (COP)</h4>
+                        <p class="price">$3,950 <span class="change positive">▲ 15</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="analisis" class="analysis-section">
+            <div class="container">
+                <h2>Análisis y Reportes</h2>
+                <div class="analysis-grid">
+                    <div class="analysis-card">
+                        <h3>Reporte Semanal de Precios Agrícolas</h3>
+                        <p>Un informe detallado sobre la evolución de los precios clave.</p>
+                        <a href="#" class="btn-small">Descargar PDF</a>
+                    </div>
+                    <div class="analysis-card">
+                        <h3>Perspectivas de Inversión 2025</h3>
+                        <p>Guía sobre dónde y cómo invertir en el sector agropecuario.</p>
+                        <a href="#" class="btn-small">Ver artículo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="resources-section">
+            <div class="container">
+                <h2>Recursos Útiles</h2>
+                <ul>
+                    <li><a href="https://www.bancoagrario.gov.co/" target="_blank">Banco Agrario de Colombia</a></li>
+                    <li><a href="https://www.minagricultura.gov.co/" target="_blank">Ministerio de Agricultura y
+                            Desarrollo Rural</a></li>
+                    <li><a href="https://www.dane.gov.co/" target="_blank">DANE - Estadísticas Agrícolas</a></li>
+                    <li><a href="https://www.fedecafeteros.org/" target="_blank">Federación Nacional de Cafeteros</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <p>¿Tienes preguntas o sugerencias? Escríbenos.</p>
+                <form>
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="email" placeholder="Tu Email">
+                    <textarea placeholder="Tu Mensaje"></textarea>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AgroFinanzas Hoy. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
