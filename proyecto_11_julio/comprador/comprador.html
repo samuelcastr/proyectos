@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroMercado - Comprador</title>
+  <link rel="stylesheet" href="comprador.css">
+  <script defer src="comprador.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="#">AgroMercado</a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar productos...">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </div>
+      <nav class="user-nav">
+        <ul>
+          <li><a href="#"><i class="fas fa-handshake"></i> Vender</a></li>
+          <li>
+            <a href="#" id="btnCarrito">
+              <i class="fas fa-shopping-cart"></i> Mi Carrito
+              <span id="cartCount" class="badge">0</span>
+            </a>
+          </li>
+          <li><a href="#"><i class="fas fa-user-circle"></i> Mi Cuenta</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <aside class="sidebar">
+      <h3>Categorías</h3>
+      <ul>
+        <li><a href="#"><i class="fas fa-seedling"></i> Cultivos</a></li>
+        <li><a href="#"><i class="fas fa-tractor"></i> Maquinaria</a></li>
+        <li><a href="#"><i class="fas fa-boxes"></i> Fertilizantes</a></li>
+        <li><a href="#"><i class="fas fa-cow"></i> Ganadería</a></li>
+        <li><a href="#"><i class="fas fa-leaf"></i> Orgánicos</a></li>
+      </ul>
+      <h3>Filtros</h3>
+      <div class="filter-group">
+        <h4>Precio</h4>
+        <input type="range" min="0" max="1000000" value="500000">
+        <p>$0 - $1,000,000</p>
+      </div>
+      <button class="btn-filter">Aplicar Filtros</button>
+    </aside>
+
+    <section class="product-grid">
+      <div class="product-card" data-id="cafe2025" data-titulo="Café Orgánico Especial - Cosecha 2025" data-precio="120000" data-unidad="carga">
+        <img src="https://via.placeholder.com/300x200?text=Café" alt="Café">
+        <div class="product-info">
+          <h3>Café Orgánico Especial - Cosecha 2025</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Mosquera</p>
+          <p class="price">$120,000 <span class="unit">/ carga</span></p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <button class="btn-buy"><i class="fas fa-shopping-cart"></i> Añadir al Carrito</button>
+        </div>
+      </div>
+      <div class="product-card" data-id="cafe2025" data-titulo="Café Orgánico Especial - Cosecha 2025" data-precio="120000" data-unidad="carga">
+        <img src="https://via.placeholder.com/300x200?text=Café" alt="Café">
+        <div class="product-info">
+          <h3>Café Orgánico Especial - Cosecha 2025</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Mosquera</p>
+          <p class="price">$120,000 <span class="unit">/ carga</span></p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <button class="btn-buy"><i class="fas fa-shopping-cart"></i> Añadir al Carrito</button>
+        </div>
+      </div>
+      <div class="product-card" data-id="cafe2025" data-titulo="Café Orgánico Especial - Cosecha 2025" data-precio="120000" data-unidad="carga">
+        <img src="https://via.placeholder.com/300x200?text=Café" alt="Café">
+        <div class="product-info">
+          <h3>Café Orgánico Especial - Cosecha 2025</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Mosquera</p>
+          <p class="price">$120,000 <span class="unit">/ carga</span></p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <button class="btn-buy"><i class="fas fa-shopping-cart"></i> Añadir al Carrito</button>
+        </div>
+      </div>
+      <div class="product-card" data-id="cafe2025" data-titulo="Café Orgánico Especial - Cosecha 2025" data-precio="120000" data-unidad="carga">
+        <img src="https://via.placeholder.com/300x200?text=Café" alt="Café">
+        <div class="product-info">
+          <h3>Café Orgánico Especial - Cosecha 2025</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Mosquera</p>
+          <p class="price">$120,000 <span class="unit">/ carga</span></p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <button class="btn-buy"><i class="fas fa-shopping-cart"></i> Añadir al Carrito</button>
+        </div>
+      </div>
+      <div class="product-card" data-id="cafe2025" data-titulo="Café Orgánico Especial - Cosecha 2025" data-precio="120000" data-unidad="carga">
+        <img src="https://via.placeholder.com/300x200?text=Café" alt="Café">
+        <div class="product-info">
+          <h3>Café Orgánico Especial - Cosecha 2025</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Mosquera</p>
+          <p class="price">$120,000 <span class="unit">/ carga</span></p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <button class="btn-buy"><i class="fas fa-shopping-cart"></i> Añadir al Carrito</button>
+        </div>
+      </div>
+      <div class="product-card" data-id="cafe2025" data-titulo="Café Orgánico Especial - Cosecha 2025" data-precio="120000" data-unidad="carga">
+        <img src="https://via.placeholder.com/300x200?text=Café" alt="Café">
+        <div class="product-info">
+          <h3>Café Orgánico Especial - Cosecha 2025</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i> Mosquera</p>
+          <p class="price">$120,000 <span class="unit">/ carga</span></p>
+          <div class="rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <button class="btn-buy"><i class="fas fa-shopping-cart"></i> Añadir al Carrito</button>
+        </div>
+      </div>
+
+      <!-- Puedes duplicar las tarjetas con diferentes datos -->
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 AgroMercado. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Modal del carrito -->
+  <div id="modalCarrito" class="modal hidden">
+    <div class="modal-contenido">
+      <h3>Mi Carrito</h3>
+      <table id="tablaCarrito">
+        <thead>
+          <tr><th>Producto</th><th>Precio</th><th></th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p class="total">Total: <span id="totalCarrito">$0</span></p>
+      <div class="modal-actions">
+        <button id="btnVaciar" class="vaciar">Vaciar Carrito</button>
+        <button id="btnCerrarCarrito" class="cerrar">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
